@@ -74,7 +74,7 @@
 
     <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' != 'net'">
         <!--    .NET Core    -->
-        <PackageReference Include="System.Management" Version="5.0.0" />
+        <PackageReference Include="System.Management" Version="7.0.0" />
         <PackageReference Include="System.ServiceProcess.ServiceController" Version="5.0.0" />
         <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
     </ItemGroup>
